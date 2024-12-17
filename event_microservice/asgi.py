@@ -1,5 +1,5 @@
 """
-ASGI config for time_series_even_emitter project.
+ASGI config for event_microservice project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'time_series_even_emitter.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'event_microservice.settings')
 
 application = get_asgi_application()

@@ -1,5 +1,5 @@
 """
-URL configuration for time_series_even_emitter project.
+URL configuration for event_microservice project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
