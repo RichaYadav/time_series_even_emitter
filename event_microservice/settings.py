@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'events.apps.EventEmitterConfig',
+    'events.apps.EventConfig',
 ]
 
 MIDDLEWARE = [
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'time_series_even_emitter.urls'
+ROOT_URLCONF = 'event_microservice.urls'
 
 TEMPLATES = [
     {
